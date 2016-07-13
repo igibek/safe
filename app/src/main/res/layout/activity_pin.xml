@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:text="@string/pin_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:inputType="numberPassword"
+        android:maxLength="6"
+        android:hint="Enter PIN"
+        android:ems="10"
+        android:id="@+id/editText_pin"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:maxLength="6"
+        android:inputType="numberPassword"
+        android:hint="Confirm PIN"
+        android:ems="10"
+        android:id="@+id/confirm_pin"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="PINs does not match"
+        android:textColor="@color/red"
+        android:visibility="invisible"
+        android:id="@+id/pin_does_not_match"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:gravity="center|bottom"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pin_cancel_button"
+            android:id="@+id/button_cancel_pin"/>
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pin_continue_button"
+            android:id="@+id/button_continue_pin"/>
+    </LinearLayout>
+
+
+</LinearLayout>

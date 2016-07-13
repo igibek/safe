@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="match_parent"
+                                                 xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="20sp"
+            android:text="@string/account_page_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_above="@+id/textView4"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:text="@string/account_page_sublabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView4"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/ic_done"
+            android:layout_marginTop="17dp"
+            android:layout_below="@+id/textView4"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

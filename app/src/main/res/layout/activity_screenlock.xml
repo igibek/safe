@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/parent_layout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+        <TextView
+            android:textSize="24sp"
+            android:text="@string/screen_lock_label"
+            android:layout_margin="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="14sp"
+            android:text="@string/screen_lock_subtitle"
+            android:layout_marginLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <EditText
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:maxLength="6"
+        android:id="@+id/pin_edit_text"
+        android:imeOptions="actionDone"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Wrong PIN"
+        android:textColor="@color/red"
+        android:visibility="invisible"
+        android:id="@+id/pin_error"
+        android:layout_below="@+id/pin_edit_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00897B</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="actionbar_opacity">#33000000</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="red">#ff0000</color>
+
+    <color name="dark_grey">#AEAEAE</color>
+    <color name="black">#616161</color>
+
+    <color name="translucent_scrim_top">#26000000</color>
+    <color name="translucent_scrim_top_center">#0C000000</color>
+    <color name="translucent_scrim_bottom">#00000000</color>
+    <color name="translucent_scrim_bottom_center">#00000000</color>
+</resources>

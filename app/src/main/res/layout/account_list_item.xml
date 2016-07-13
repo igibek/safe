@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:paddingTop="@dimen/padding_normal"
+              android:foreground="?android:selectableItemBackground"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/logo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem"
+        tools:text="account name"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/logo"
+        android:layout_toEndOf="@+id/logo"/>
+
+</RelativeLayout>

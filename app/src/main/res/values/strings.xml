@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Safe</string>
+    <string name="placeholder_token">YOUR TOKEN IS:</string>
+    <string name="expiration">YOUR TOKEN EXPIRES IN</string>
+    <string name="menu_camera">barcode scanner</string>
+    <string name="toggle_flash">Flash</string>
+    <string name="flash_on">Flash [ON]</string>
+    <string name="flash_off">Flash [OFF]</string>
+    <string name="auto_focus_on">Auto Focus [ON]</string>
+    <string name="auto_focus_off">Auto Focus [OFF]</string>
+    <string name="formats">Formats</string>
+    <string name="choose_formats">Choose Formats</string>
+    <string name="select_camera">Select a Camera</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="pin_label">PIN must be at least 4 digits</string>
+    <string name="pin_cancel_button">Cancel</string>
+    <string name="pin_continue_button">Continue</string>
+    <string name="account_page_label">You dont have any accounts yet</string>
+    <string name="account_page_sublabel">Tab the button below to add one</string>
+    <string name="screen_lock_label">Enter your PIN</string>
+    <string name="screen_lock_subtitle">Enter your device PIN to continue</string>
+    <string name="qr_code_desc">Account are added by scanning a QR code or manually entering a key that you get from each of the above websites</string>
+
+    <!-- Add List Dialog-->
+    <string name="hint_add_account">Enter a secret key</string>
+    <string name="positive_button_create">Add</string>
+</resources>
